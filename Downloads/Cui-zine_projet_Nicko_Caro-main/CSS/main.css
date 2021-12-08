@@ -1,0 +1,77 @@
+@font-face {
+    font-family:"Courgette" ;
+    src: url(../Fonts/Courgette-Regular.ttf);
+}
+@font-face {
+    font-family:"Oswald" ;
+    src: url(../Fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-Bold" ;
+    src: url(../Fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-ExtraLight" ;
+    src: url(../Fonts/Oswald-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-Light" ;
+    src: url(../Fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-Medium" ;
+    src: url(../Fonts/Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family:"Oswald-Regular" ;
+    src: url(../Fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family:"SemiBold" ;
+    src: url(../Fonts/Oswald-SemiBold.ttf);
+}
+
+
+/* Header */
+header{
+    font-family: "Courgette";
+}
+
+.title-head{
+    height: 500px;
+     
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+	
+}
+
+p{
+    font-family: "Oswald-ExtraLight";
+}
+
+h3{
+    font-family: "Courgette";
+    font-size: 18px;
+}
+
+h5{
+    color: #fff;
+}
+
+.footer-link{
+    font-family: "Oswald-ExtraLight";
+    text-decoration: underline;
+    text-transform: none;
+    color: #fff;
+
+}
+

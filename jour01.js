@@ -42,3 +42,8 @@ let word = "banana";
 let letters = word.split("");
 console.log(letters);
 
+
+let age = 26;
+let template = (`I'm ${age} years old`);
+console.log(template);
+

@@ -12,12 +12,33 @@ console.log(test);
 
 let name = "Nicolas";
 
-console.log("Nice to meet you " + name)
+console.log("Nice to meet you " + name);
 
 //exo 4
 
-let testLength = "I'm very long !"
+let testLength = "I'm very long !";
 
-console.log(testLength)
+console.log(testLength);
 
+//exo5
+
+let food = "croissant is meh";
+
+food = food.replace("meh", "so good");
+
+console.log(food);
+
+//exo6
+
+let basic = "This is cool "
+let basicUp = "basic "
+let basicDown = "basic"
+
+console.log(basic + basicUp + basicDown);
+
+//exo7
+
+let word = "banana";
+let letters = word.split("");
+console.log(letters);
 

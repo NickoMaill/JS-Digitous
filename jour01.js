@@ -42,8 +42,19 @@ let word = "banana";
 let letters = word.split("");
 console.log(letters);
 
+//exo8
 
 let age = 26;
 let template = (`I'm ${age} years old`);
 console.log(template);
+
+//Bonus
+
+let changed = "Bonjour";
+let sel = changed.replace(/o/g, "a");
+
+console.log(sel);
+
+
+
 

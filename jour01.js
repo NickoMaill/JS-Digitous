@@ -30,9 +30,9 @@ console.log(food);
 
 //exo6
 
-let basic = "This is cool "
-let basicUp = "basic "
-let basicDown = "basic"
+let basic = "This is cool ";
+let basicUp = "basic ";
+let basicDown = "basic";
 
 console.log(basic + basicUp + basicDown);
 

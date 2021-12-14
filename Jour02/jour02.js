@@ -36,7 +36,7 @@ if(teest < biis){
 //exo6
 
 let limit = 50;
-let score = 64;
+let score = 44;
 
 if(limit <= score){
     console.log("OK Good!");
@@ -44,7 +44,7 @@ if(limit <= score){
 
 //exo7
 
-let password = "azerty";
+let password = "az";
 password = password.length;
 
 if(password > 5){
@@ -59,7 +59,5 @@ if ((limit <= score) && (password > 5)) {
     console.log("Something is good");
 } else {console.log("Nothing is good")};
 
-
-// else(console.log("Nothing is good"));        
 
 

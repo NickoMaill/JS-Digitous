@@ -59,5 +59,11 @@ if ((limit <= score) && (password > 5)) {
     console.log("Something is good");
 } else {console.log("Nothing is good")};
 
+//BONUS1
 
+let random = Math.floor(Math.random() * (1 - 7 + 1) + 7);
+console.log(random);
+if (random === 6) {
+    console.log("Yes I Win!!");
+} else(console.log("So Close..."));
 

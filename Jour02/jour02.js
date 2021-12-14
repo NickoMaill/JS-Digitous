@@ -42,3 +42,24 @@ if(limit <= score){
     console.log("OK Good!");
 } else(console.log("Oh Noooooo...."));
 
+//exo7
+
+let password = "azerty";
+password = password.length;
+
+if(password > 5){
+    console.log("The Password is secure");
+} else(console.log("The Password is not secure"));
+
+//exo8
+
+if ((limit <= score) && (password > 5)) {
+    console.log("Everything is good!");
+} else if (((limit >= score) && (password > 5))||((limit <= score) && (password < 5))) {
+    console.log("Something is good");
+} else {console.log("Nothing is good")};
+
+
+// else(console.log("Nothing is good"));        
+
+

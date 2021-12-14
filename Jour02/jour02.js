@@ -61,9 +61,11 @@ if ((limit <= score) && (password > 5)) {
 
 //BONUS1
 
-let random = Math.floor(Math.random() * (1 - 7 + 1) + 7);
+let random = Math.floor(Math.random() * (6 - 1 + 1) + 1);
 console.log(random);
 if (random === 6) {
     console.log("Yes I Win!!");
 } else(console.log("So Close..."));
+
+//
 

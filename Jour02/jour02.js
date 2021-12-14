@@ -112,3 +112,9 @@ switch (month) {
 		console.log("That's not a season...");
 }
 
+//BONUS3
+
+let roundedNumber = 12.4;
+if ((roundedNumber - Math.floor(roundedNumber)) >= 0.5) {
+    console.log(Math.ceil(roundedNumber));
+}   else {console.log(Math.floor(roundedNumber))}

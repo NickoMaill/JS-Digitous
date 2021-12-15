@@ -8,30 +8,40 @@ console.table(fruits);
 
 const ingredients = ["eggs", "milk", "butter"];
 
-console.log(ingredients[1]);
+console.table(ingredients[1]);
 
-console.log(ingredients.indexOf("butter"));
+console.table(ingredients.indexOf("butter"));
 
 //exo3
 
 const objects = ["pen", "book", "lamp"];
 objects.unshift("chair");
-console.log(objects);
+console.table(objects);
 
 objects.pop();
-console.log(objects);
+console.table(objects);
 
 objects.push("laptop");
-console.log(objects);
+console.table(objects);
 
 objects.shift();
-console.log(objects);
+console.table(objects);
 
 //exo4
 
 let numbers = [4, 10, 8, 12, 6];
 numbers.reverse();
-console.log(numbers);
+console.table(numbers);
 
 numbers.sort((a, b) => a - b);
-console.log(numbers);
+console.table(numbers);
+
+//exo5
+
+let total = 0;
+let limit = 10;
+
+for (let i = 0; i <= limit; i++) {
+    total += i;
+}
+    console.log(total);

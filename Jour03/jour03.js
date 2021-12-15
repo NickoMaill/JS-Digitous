@@ -14,18 +14,24 @@ console.log(ingredients.indexOf("butter"));
 
 //exo3
 
-const objects = ["pen", "book", "lamp"]
+const objects = ["pen", "book", "lamp"];
 objects.unshift("chair");
 console.log(objects);
 
-objects.pop()
+objects.pop();
 console.log(objects);
 
-objects.push("laptop")
+objects.push("laptop");
 console.log(objects);
 
-objects.shift()
+objects.shift();
 console.log(objects);
 
 //exo4
 
+let numbers = [4, 10, 8, 12, 6];
+numbers.reverse();
+console.log(numbers);
+
+numbers.sort((a, b) => a - b);
+console.log(numbers);

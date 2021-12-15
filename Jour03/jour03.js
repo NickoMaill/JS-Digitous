@@ -41,7 +41,16 @@ console.table(numbers);
 let total = 0;
 let limit = 10;
 
-for (let i = 0; i <= limit; i++) {
-    total += i;
+for (let ii = 0; ii <= limit; ii++) {
+    total += ii;
 }
     console.log(total);
+
+// exo6
+
+let sentence = "Hello Konexio !";
+ 
+for (let i = sentence.length - 1; i >= 0; i--) {
+    console.log(sentence[i]);
+}
+

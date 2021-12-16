@@ -85,4 +85,21 @@ addUp(12.1);
 
 //exo6
 
+function format(num) {
+
+    let hrs = Math.floor(num / 3600); // Math.floor pour arrondir car, il y a de grandes de tomber sur un nombre a virgule
+    let hrsRest = num - (hrs * 3600); // ici on prend le reste de notre division
+    let min = Math.floor(hrsRest / 60); // on applique la même opération que hrs en remplaçant le num par le reste hrsRest
+    let sec = hrsRest - (min * 60); // ici le reste de notre précédente division qui donne donc des secondes 
+
+    console.log(`${hrs} : ${min} : ${sec}`);
+};
+
+format(3700);
+format(5600);
+format(9000);
+format(345678);
+
+
+
 

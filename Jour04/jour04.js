@@ -69,3 +69,20 @@ compare(34, 8);
 compare(3, 3);
 
 
+//exo5
+
+function addUp(num){
+
+    let total = 0;
+
+    for (let i = 1; i <= num; i++) {
+        total += i;
+    };
+    console.log(total);
+};
+
+addUp(12.1);
+
+//exo6
+
+

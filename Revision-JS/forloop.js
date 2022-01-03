@@ -38,3 +38,10 @@ for (i = 1 ; i <= 20; i++) {
 5
 17
 14 */
+
+//Exo 5
+
+/* la console nous affichera (dans l'ordre):
+12
+21
+9*/

@@ -26,8 +26,15 @@ console.log(multi + 1);
 
 for (i = 1 ; i <= 20; i++) {
     let dice = Math.floor(Math.random() * (6 - 1 + 1) + 1);
-    console.log(dice)
     if (dice >= 5) {
         console.log(dice);
     };
 };
+
+//exo4
+
+/* la console nous affichera (dans l'ordre):
+10
+5
+17
+14 */

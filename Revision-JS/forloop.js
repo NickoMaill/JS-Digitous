@@ -45,3 +45,12 @@ for (i = 1 ; i <= 20; i++) {
 12
 21
 9*/
+
+//Exo6
+
+/*la console nous affichera (dans l'ordre) : 
+-3
+0
+4
+-1
+-3 */

@@ -101,5 +101,52 @@ format(9000);
 format(345678);
 
 
+//Bonus 1
 
+function generatePassword(num) {
+    const myCharset = [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+    ];
+    const length = myCharset.length;
+    //Guard
+    if (num <= 6 || num >=12) {
+        console.log("error");
+        return null;
+    }
+    let password = "";
+        
+    for (let i = 0; i < num; i++) {
+        const index = Math.floor(Math.random() * length);
+        password += myCharset[index];
+    }
+        
+        return password; 
+}
 
+const newPassword = generatePassword(13);
+console.log(newPassword);

@@ -28,28 +28,10 @@ for (i = 0 ; i <= 50; i++) {
 };
 
 console.table(number);
-console.log(long);
-console.log(sum);
+//console.log(long);
+console.log("Somme du tableau"," : ",sum);
 
-//exo2 
-
-// let numbers2 = [];
-// let max = 0;
-
-// for (i = 0 ; i <= 50; i++) {
-
-//     let randomNumbers2 = Math.floor(Math.random() * (200 - 50 + 1) + 50);
-//     numbers2.push(randomNumbers2);
-
-//     for (i = 0 ; i === 200 ; i++) {
-//         let maxNum = Math.max.apply(null, numbers2);
-//         max += maxNum;
-//     };
-    
-// };
-
-//console.log(numbers2);
-//let maxNum = Math.max.apply(null, number2);
+//Exo2
 
 var array = [];
 var min = 50;
@@ -57,15 +39,8 @@ var max = 200;
 var numRandom = 0;
 
 for (var i = 1; i <= 50; i++) {
-    numRandom = Math.floor(Math.random() * (max - min + 1));
-
-    // console.log(numRandom);
-
-    if (array.indexOf(numRandom) === -1) {
-        array.push(numRandom);
-    } else {
-        i--;
-    }
+    let numRandom = Math.floor(Math.random() * (200 - 50 + 1)+ 50);
+    array.push(numRandom);
 }
 
 console.table(array);
@@ -80,5 +55,9 @@ for (var i = 1; i < array.length; i++) {
     }
 }
 
-console.log(numMax);
+console.log("Valeur Maximal"," : ",numMax);
+
+//Exo3
+
+
 

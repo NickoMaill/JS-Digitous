@@ -2,10 +2,9 @@ console.log("Hello World!");
 
 //Exo1
 
-let num = 5;
-let max = 10
+let num = 0;
 
-for (let i = num ; i <= max; i++) {
+for (let i = 5 ; i <= 10; i++) {
     num += i * i;
 }
 console.log(num);

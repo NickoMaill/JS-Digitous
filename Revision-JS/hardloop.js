@@ -33,20 +33,20 @@ console.log("Somme du tableau"," : ",sum);
 
 //Exo2
 
-var numbers2 = [];
-var randomNumbers2 = 0;
+let numbers2 = [];
+let randomNumbers2 = 0;
 
-for (var i = 1; i <= 50; i++) {
+for (let i = 1; i <= 50; i++) {
     let numRandom = Math.floor(Math.random() * (200 - 50 + 1)+ 50);
     numbers2.push(numRandom);
 }
 
 console.table(numbers2);
 
-var numMax = numbers2[0]; 
+let numMax = numbers2[0]; 
 
-for (var i = 1; i < numbers2.length; i++) {
-    var item = numbers2[i];
+for (let i = 1; i < numbers2.length; i++) {
+    let item = numbers2[i];
 
     if (item > numMax) {
         numMax = item;
@@ -58,4 +58,14 @@ console.log("Valeur Maximal"," : ",numMax);
 //Exo3
 
 
+let numbers3 = [];
+let randomNumbers2 = 0;
 
+for (let i = 1; i <= 50; i++) {
+    let numRandom = Math.floor(Math.random() * (200 - 50 + 1)+ 50);
+    numbers3.push(numRandom);
+}
+
+console.table(numbers3);
+
+while ()

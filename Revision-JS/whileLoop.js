@@ -38,4 +38,15 @@ while (ussainBolt < 100 && tysonGay < 100){
 }
 
 // Exo4
+/* la console nous affichera (dans l'ordre):
+5
+-8
+*/
 
+// Exo5 
+
+/* la console nous affichera (dans l'ordre):
+7
+0
+7
+*/

@@ -13,42 +13,40 @@ console.log("Hello World!");
 // }
 // console.log(number.reduce(sum));
 
-let number = [];
+let numbers = [];
 let sum = 0;
 
 for (i = 0 ; i <= 50; i++) {
 
     let randomNumbers = Math.floor(Math.random() * (100 - 0 + 1));
-    number.push(randomNumbers);
+    numbers.push(randomNumbers);
 
-    for(i = 0, long = number.length; i < long; i++) {
+    for(i = 0, long = numbers.length; i < long; i++) {
 
-        sum += number[i];
+        sum += numbers[i];
     };
 };
 
-console.table(number);
+console.table(numbers);
 //console.log(long);
 console.log("Somme du tableau"," : ",sum);
 
 //Exo2
 
-var array = [];
-var min = 50;
-var max = 200;
-var numRandom = 0;
+var numbers2 = [];
+var randomNumbers2 = 0;
 
 for (var i = 1; i <= 50; i++) {
     let numRandom = Math.floor(Math.random() * (200 - 50 + 1)+ 50);
-    array.push(numRandom);
+    numbers2.push(numRandom);
 }
 
-console.table(array);
+console.table(numbers2);
 
-var numMax = array[0]; 
+var numMax = numbers2[0]; 
 
-for (var i = 1; i < array.length; i++) {
-    var item = array[i];
+for (var i = 1; i < numbers2.length; i++) {
+    var item = numbers2[i];
 
     if (item > numMax) {
         numMax = item;

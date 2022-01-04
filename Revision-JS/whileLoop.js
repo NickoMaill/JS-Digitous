@@ -36,3 +36,6 @@ while (ussainBolt < 100 && tysonGay < 100){
     }
 
 }
+
+// Exo4
+

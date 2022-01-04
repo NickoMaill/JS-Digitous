@@ -3,22 +3,24 @@ console.log("Hello World!");
 //Exo1
 
 let num = 5;
+let max = 10
 
-for (let i = num ; i <=10; i++) {
-    num += (Math.pow(i, 2));
+for (let i = num ; i <= max; i++) {
+    num += i * i;
 }
 console.log(num);
 
 //Exo2
 
-let multi = 0;
+let count = 0;
 
 for (let i = 100 ; i <= 1000; i++) {
-    if (i % 7) {
-        result = multi + 1;
+    if (i % 7 === 0) {
+        count++; // qui veut dire multi + 1 pour a ajouter le nombre de multiple de 7
     };
 };
-console.log(multi + 1);
+
+console.log(count);
 
 
 // Exo3
@@ -54,3 +56,4 @@ for (i = 1 ; i <= 20; i++) {
 4
 -1
 -3 */
+

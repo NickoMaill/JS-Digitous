@@ -27,20 +27,24 @@ console.log(calculate(process.argv[2], process.argv[3], process.argv[4]));
 
 //exo2
 
-function multiply(wholeNum) {
+// function multiply(wholeNum) {
 
-    if (wholeNum === undefined) {
-        return "error"
-    }
-
-    for (let i = 1; i <= 10; i++) {
-        let result = wholeNum * i;
+    
+//     for (let i = 1; i <= 10; i++) {
+//         if (wholeNum === undefined) {
+//             return "error"
+//         }
+//         let result = wholeNum * i;
         
-        console.log(result);
-    }
-}
+//         console.log(result);
+//     }
+// }
 
-multiply(process.argv[2]);
+// multiply(process.argv[2]);
 
 //exo3
+//voir aussi table-utils.js
 
+let calc = require("./table-utils");
+
+console.log(calc.multiply(process.argv[2]), calc.addition(process.argv[2]));

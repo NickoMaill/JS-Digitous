@@ -1,5 +1,3 @@
-console.log("Hello World!");
-
 function multiply(wholeNum) {
 
     if (wholeNum === undefined) {
@@ -11,7 +9,7 @@ function multiply(wholeNum) {
         
         console.log(result);
     }
-}
+};
 
 function addition(wholeNum2) {
 
@@ -20,8 +18,14 @@ function addition(wholeNum2) {
     }
 
     for (let i = 1; i <= 10; i++) {
-        let result2 = wholeNum2 + i;
+        let result2 = parseInt(wholeNum2) + parseInt(i);
         
         console.log(result2);
     }
+};
+
+module.exports = {
+    multiply,
+    addition
 }
+

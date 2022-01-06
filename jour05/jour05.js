@@ -47,4 +47,4 @@ console.log(calculate(process.argv[2], process.argv[3], process.argv[4]));
 
 let calc = require("./table-utils");
 
-console.log(calc.multiply(process.argv[2]), calc.addition(process.argv[2]));
+console.log(calc.addition(process.argv[2]));

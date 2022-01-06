@@ -27,88 +27,88 @@ console.log(test + bis);
 const teest = 143;
 const biis = 219;
 
-if(teest > biis){
-} else(console.log(false));
+if (teest > biis) {
+} else (console.log(false));
 
-if(teest < biis){
-} else(console.log(true));
+if (teest < biis) {
+} else (console.log(true));
 
 //exo6
 
 let limit = 50;
 let score = 44;
 
-if(limit <= score){
-    console.log("OK Good!");
-} else(console.log("Oh Noooooo...."));
+if (limit <= score) {
+	console.log("OK Good!");
+} else (console.log("Oh Noooooo...."));
 
 //exo7
 
 let password = "az";
 password = password.length;
 
-if(password > 5){
-    console.log("The Password is secure");
-} else(console.log("The Password is not secure"));
+if (password > 5) {
+	console.log("The Password is secure");
+} else (console.log("The Password is not secure"));
 
 //exo8
 
 if ((limit <= score) && (password > 5)) {
-    console.log("Everything is good!");
-} else if (((limit >= score) && (password > 5))||((limit <= score) && (password < 5))) {
-    console.log("Something is good");
-} else {console.log("Nothing is good")};
+	console.log("Everything is good!");
+} else if (((limit >= score) && (password > 5)) || ((limit <= score) && (password < 5))) {
+	console.log("Something is good");
+} else { console.log("Nothing is good") };
 
 //BONUS1
 
 let random = Math.floor(Math.random() * (6 - 1 + 1) + 1);
 console.log(random);
 if (random === 6) {
-    console.log("Yes I Win!!");
-} else(console.log("So Close..."));
+	console.log("Yes I Win!!");
+} else (console.log("So Close..."));
 
 //BONUS2
 
 let month = "December";
 
 switch (month) {
-	case "January": 
+	case "January":
 		console.log("Winter");
 		break;
-	case "February": 
+	case "February":
 		console.log("winter");
 		break;
-	case "March": 
+	case "March":
 		console.log("Winter");
 		break;
-	case "April": 
+	case "April":
 		console.log("Spring");
 		break;
-    case "May": 
+	case "May":
 		console.log("Spring");
 		break;
-    case "June": 
+	case "June":
 		console.log("Spring");
 		break;
-    case "July": 
+	case "July":
 		console.log("Summer");
 		break;
-    case "August": 
+	case "August":
 		console.log("Summer");
 		break;
-    case "September": 
+	case "September":
 		console.log("Summer");
-		break; 
-    case "October": 
+		break;
+	case "October":
 		console.log("Fall");
 		break;
-    case "November": 
+	case "November":
 		console.log("Fall");
 		break;
-    case "December": 
+	case "December":
 		console.log("Winter");
 		break;
-	default: 
+	default:
 		console.log("That's not a season...");
 }
 
@@ -116,5 +116,5 @@ switch (month) {
 
 let roundedNumber = 12.4;
 if ((roundedNumber - Math.floor(roundedNumber)) >= 0.5) {
-    console.log(Math.ceil(roundedNumber));
-}   else {console.log(Math.floor(roundedNumber))}
+	console.log(Math.ceil(roundedNumber));
+} else { console.log(Math.floor(roundedNumber)) }

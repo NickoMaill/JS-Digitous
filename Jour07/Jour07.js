@@ -13,3 +13,13 @@ fs.readFile("jour07.txt", function (err, data) {
 });
 
 //exo2
+
+const array = [1, 2, 3, 4, 5];
+const double = array.map (function(num){
+    return num * 2;
+});
+
+console.log(double);
+
+//exo3
+

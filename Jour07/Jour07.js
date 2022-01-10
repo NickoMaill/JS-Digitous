@@ -34,11 +34,11 @@ const longNames = [
     }
 ];
 
-const shortNames = longNames.map(function(longNames){
-        return `${(longNames.firstName)} ${(longNames.lastName)}`
+const shortNames = longNames.map(function(name){
+        return `${(name.firstName)} ${(name.lastName)}`
 })
 
-console.log(shortNames);
+console.table(shortNames);
 
 
 //exo4
@@ -59,5 +59,35 @@ const even = array2.filter(function(pair){
 
 console.log(even);
 
-//exo4
+//exo6
+
+const cakes = [
+	{
+		name: "cake",
+		flavor: "vanilla",
+		status: "available"
+	},
+	{
+		name: "brownie",
+		flavor: "chocolate",
+		status: "available"
+	},
+	{
+		name: "pie",
+		flavor: "strawberry",
+		status: "available"
+	},
+	{
+		name: "muffin",
+		flavor: "pistachio",
+		status: "available"
+	},
+	{
+		name: "donut",
+		flavor: "chocolate",
+		status: "available"
+	},
+];
+
+
 

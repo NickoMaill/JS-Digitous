@@ -39,3 +39,25 @@ const shortNames = longNames.map(function(longNames){
 })
 
 console.log(shortNames);
+
+
+//exo4
+
+const array1 = [1, "toto", 34, "javascript", 8];
+const numbers = array1.filter(function(filt){
+    return filt >= 0;
+})
+
+console.log(numbers);
+
+//exo5
+
+const array2 = [1, 2, 3, 4, 5, 6, 7, 8];
+const even = array2.filter(function(pair){
+    return pair % 2 - 1;
+})
+
+console.log(even);
+
+//exo4
+

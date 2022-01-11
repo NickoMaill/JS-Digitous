@@ -7,11 +7,11 @@ let countriesNames = [];
 function getCountries() {
     axios.get("https://restcountries.com/v3.1/all").then(function (res) {
 
-        res.data.map(function (arrayCountry) {
-            countriesNames.push(arrayCountry.name.common)
+        countriesNames = res.data.map(function (arrayCountry) {
+            return arrayCountry.name.common;
         });
 
-        console.log(countriesNames)
+        console.log(countriesNames.join(" - "));
 
     });
 
@@ -29,4 +29,17 @@ function getFact() {
 
 };
 
-getFact()
+//getFact()
+
+//exo3
+
+function catchPokemon(id) {
+    axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`).then(function (res) {
+        console.log("Id :", id);
+        console.log("Name :", res.data.forms[0].name);
+
+    });
+
+};
+
+catchPokemon(151);

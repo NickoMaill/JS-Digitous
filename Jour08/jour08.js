@@ -18,4 +18,15 @@ function getCountries() {
 
 }
 
-getCountries();
+//getCountries();
+
+//exo2
+
+function getFact() {
+    axios.get("https://api.chucknorris.io/jokes/random").then(function (res) {
+        console.log(res.data.value);
+    });
+
+};
+
+getFact()

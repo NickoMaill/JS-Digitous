@@ -34,9 +34,10 @@ const longNames = [
     }
 ];
 
-const shortNames = longNames.map(function (name) {
-    let name1 = {name: `${(name.firstName)} ${(name.lastName)}`};
-    return name1;
+const shortNames = longNames.map(function (name) { //declaration d'une variable pur l'utilisation de .map
+    return { 
+        name: `${(name.firstName)} ${(name.lastName)}` 
+    }; // declaration d'une variable pour crée un nouvel objet qui stockera le format voulus
 
 });
 
@@ -91,8 +92,8 @@ const cakes = [
     },
 ];
 
-const cakesFilt = cakes.filter(function (cakes) {
-    return cakes.flavor === "chocolate"
+const cakesFilt = cakes.filter(function (cake) {
+    return cake.flavor === "chocolate"
 });
 
 //console.log(cakesFilt);
